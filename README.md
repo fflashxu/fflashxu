@@ -1,4 +1,4 @@
-# Hey, I'm Harry 👋
+# Hey, I'm Flash 👋
 
 **Recruiter turned builder.** I've spent years inside the recruiting problem — I know exactly where it breaks down. Now I'm building the tools I always wished existed.
 

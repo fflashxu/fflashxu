@@ -1,0 +1,34 @@
+name: Sync pinned repos to README
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # 每天 UTC 3:00（北京时间 11:00）
+  workflow_dispatch:       # 允许手动触发
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_readme.py'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README with pinned repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_readme.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && echo "No changes to commit" || (
+            git add README.md &&
+            git commit -m "chore: sync pinned repos [skip ci]" &&
+            git push
+          )

@@ -20,7 +20,7 @@ jobs:
 
       - name: Update README with pinned repos
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.USER_TOKEN }}
         run: python scripts/update_readme.py
 
       - name: Commit if changed

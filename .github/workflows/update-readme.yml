@@ -9,6 +9,10 @@ on:
     paths:
       - 'scripts/update_readme.py'
 
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest

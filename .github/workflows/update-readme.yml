@@ -27,9 +27,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git diff --quiet && echo "No changes to commit" || (
+          git pull --rebase origin main
+          git diff --quiet README.md && echo "No changes to commit" || (
             git add README.md &&
             git commit -m "chore: sync pinned repos [skip ci]" &&
-            git pull --rebase origin main &&
             git push
           )

@@ -11,11 +11,11 @@
 <!-- PINNED_REPOS_START -->
 | Product | What it does | Status |
 |---|---|---|
-| **[icebreaker](https://icebreaker.build)** | AI recruiting email writer — upload a resume, get a personalized outreach email in 30s | 📋 Planned |
-| **[icebreaker-Pro](https://github.com/fflashxu/icebreaker-Pro)** | Batch recruiting outreach — CSV import, AI generate, review, SMTP send | 📋 Planned |
-| **[Talent-Flow](https://github.com/fflashxu/Talent-Flow)** | Lightweight ATS with Kanban pipeline, stage history, and candidate tracking | 📋 Planned |
-| **[researcher-mapper](https://github.com/fflashxu/researcher-mapper)** | AI Researcher Discovery Platform | 📋 Planned |
-| **[github-digger](https://github.com/fflashxu/github-digger)** | Find Chinese contributors from GitHub for talent recruiting | 📋 Planned |
+| **[icebreaker](https://icebreaker.build)** | AI recruiting email writer — upload a resume, get a personalized outreach email in 30s | 🟢 Live |
+| **[icebreaker-Pro](https://github.com/fflashxu/icebreaker-Pro)** | Batch recruiting outreach — CSV import, AI generate, review, SMTP send | 🟢 Live |
+| **[Talent-Flow](https://github.com/fflashxu/Talent-Flow)** | Lightweight ATS with Kanban pipeline, stage history, and candidate tracking | 🔨 In progress |
+| **[researcher-mapper](https://github.com/fflashxu/researcher-mapper)** | AI Researcher Discovery Platform | 🟢 Live |
+| **[github-digger](https://github.com/fflashxu/github-digger)** | Find Chinese contributors from GitHub for talent recruiting | 🔒 Private beta |
 <!-- PINNED_REPOS_END -->
 
 ---

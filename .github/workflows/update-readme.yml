@@ -30,5 +30,6 @@ jobs:
           git diff --quiet && echo "No changes to commit" || (
             git add README.md &&
             git commit -m "chore: sync pinned repos [skip ci]" &&
+            git pull --rebase origin main &&
             git push
           )

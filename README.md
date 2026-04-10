@@ -11,9 +11,11 @@
 <!-- PINNED_REPOS_START -->
 | Product | What it does | Status |
 |---|---|---|
-| **[icebreaker](https://icebreaker.build)** | Upload a resume → personalized recruiting email in 30s. 6 languages · 4 writing styles · PDF / Word / image OCR | 🟢 Live |
-| **[icebreaker-Pro](https://github.com/fflashxu/icebreaker-Pro)** | Batch outreach for recruiting teams. CSV import → AI generate → review → SMTP send. Full campaign tracking | 🔒 Private beta |
-| **[Talent-Flow](https://github.com/fflashxu/Talent-Flow)** | Lightweight ATS. Kanban pipeline · stage history · candidate tracking · team comments | 🔨 In progress |
+| **[icebreaker](https://icebreaker.build)** | AI recruiting email writer — upload a resume, get a personalized outreach email in 30s | 📋 Planned |
+| **[icebreaker-Pro](https://github.com/fflashxu/icebreaker-Pro)** | Batch recruiting outreach — CSV import, AI generate, review, SMTP send | 📋 Planned |
+| **[Talent-Flow](https://github.com/fflashxu/Talent-Flow)** | Lightweight ATS with Kanban pipeline, stage history, and candidate tracking | 📋 Planned |
+| **[researcher-mapper](https://github.com/fflashxu/researcher-mapper)** | AI Researcher Discovery Platform | 📋 Planned |
+| **[github-digger](https://github.com/fflashxu/github-digger)** | Find Chinese contributors from GitHub for talent recruiting | 📋 Planned |
 <!-- PINNED_REPOS_END -->
 
 ---
